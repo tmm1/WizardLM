@@ -67,7 +67,7 @@ def generate_prompt(instruction, input=None):
 
 def main(
     load_8bit: bool = False,
-    base_model: str = "Model_Path",
+    base_model: str = "",
     input_data_path = "Input.jsonl",
     output_data_path = "Output.jsonl",
 ):
